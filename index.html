@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0">Clinica Integrativa Carneiro</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#clinica" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a Clinica
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#profissionais" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Nossos Profissionais
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#especialidades" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Especialidades
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#servicos" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Nossos Serviços
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link" >
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smoth-scroll="true">
+        <section id="clinica">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <img src="./images/slides/clinica_medica2.jpeg" alt="" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./images/slides/Fachada.jpeg" alt="" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./images/slides/injetavel1.jpeg" alt="" class="d-block w-100">
+                    </div>
+                </div>
+                <button data-bs-target="#carousel" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button data-bs-target="#carousel" data-bs-slide="next" class="carousel-control-next" type="button">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./images/Fachada2.jpeg" class="d-block w-100 rounded" alt="">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre a Clinica</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus veritatis ex illo sapiente. Labore fuga harum blanditiis debitis? Beatae dolore placeat, sint cum enim aliquid? Quia, provident voluptas. Est, voluptate?
+                            </p>
+                            <h3 class="section-title">Nosso compromisso:</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis rerum minus quidem non, iusto eum illo quod quibusdam cum ratione in ipsa quo nihil velit dolores facere distinctio blanditiis veniam.
+                            </p>
+                            <ul>
+                                <li>Promover a saúde e o bem estar de nossos pacientes</li>
+                                <li>Tratamento humanizado, individualizado e personalizado</li>
+                                <li>Oferecer os melhores profissionais, os melhores métodos e a certeza dos melhores resultados</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="profissionais" class="pt-5 pb-5 mx-md-3">
+            <div class="container">
+                <h2 class="section-title text-center">Corpo Clinico</h2>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <img src="./images/profissionais/Dr_drake_ramoray.webp" alt="" class="d-block w-100 ronded mb-2">
+                    <h3 class="section-title text-colored fs-4">
+                        <i class="bi bi-people-fill"></i>
+                        Dr. Drake Ramoray - Nutrólogo
+                    </h3>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium dicta quia in optio velit dignissimos quas, accusamus consectetur, nam id ad magnam aut quidem earum est debitis dolores nulla eius.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="./images/profissionais/Dr house.webp" alt="" class="d-block w-100 ronded mb-2">
+                    <h3 class="section-title text-colored fs-4">
+                        <i class="bi bi-people-fill"></i>
+                        Dr. House - Nutrólogo
+                    </h3>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium dicta quia in optio velit dignissimos quas, accusamus consectetur, nam id ad magnam aut quidem earum est debitis dolores nulla eius.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="./images/profissionais/enfermeira.jpeg" alt="" class="d-block w-100 ronded mb-2">
+                    <h3 class="section-title text-colored fs-4">
+                        <i class="bi bi-people-fill"></i>
+                        Ratched - Enfermeira
+                    </h3>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium dicta quia in optio velit dignissimos quas, accusamus consectetur, nam id ad magnam aut quidem earum est debitis dolores nulla eius.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="./images/profissionais/nutricionista1.jpeg" alt="" class="d-block w-100 ronded mb-2">
+                    <h3 class="section-title text-colored fs-4">
+                        <i class="bi bi-people-fill"></i>
+                        Mary Cartoon - Nutricionista
+                    </h3>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium dicta quia in optio velit dignissimos quas, accusamus consectetur, nam id ad magnam aut quidem earum est debitis dolores nulla eius.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="./images/profissionais/nutricionista2.jpeg" alt="" class="d-block w-100 ronded mb-2">
+                    <h3 class="section-title text-colored fs-4">
+                        <i class="bi bi-people-fill"></i>
+                        Jane Cartoon - Nutricionista
+                    </h3>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium dicta quia in optio velit dignissimos quas, accusamus consectetur, nam id ad magnam aut quidem earum est debitis dolores nulla eius.
+                    </p>
+                </div>  
+            </div>
+        </section>
+        <section id="especialidades" class="pt-5 pb-5 mx-md-3">
+            <div class="container">
+                <h2 class="section-title text-center">Especialidades</h2>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <img src="./images/especialidades/Nutricao_esportiva.jpeg" alt="" class="d-block w-100 ronded mb-2">
+                    <h3 class="section-title text-colored fs-4">
+                        <i class="bi bi-people-fill"></i>
+                        Nutriçao Esportiva
+                    </h3>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium dicta quia in optio velit dignissimos quas, accusamus consectetur, nam id ad magnam aut quidem earum est debitis dolores nulla eius.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="./images/especialidades/nutricao_funcional.jpeg" alt="" class="d-block w-100 ronded mb-2">
+                    <h3 class="section-title text-colored fs-4">
+                        <i class="bi bi-people-fill"></i>
+                        Nutriçao Funcional
+                    </h3>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium dicta quia in optio velit dignissimos quas, accusamus consectetur, nam id ad magnam aut quidem earum est debitis dolores nulla eius.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="./images/especialidades/nutricao_pediatrica.jpeg" alt="" class="d-block w-100 ronded mb-2">
+                    <h3 class="section-title text-colored fs-4">
+                        <i class="bi bi-people-fill"></i>
+                        Nutriçao Pediatrica
+                    </h3>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium dicta quia in optio velit dignissimos quas, accusamus consectetur, nam id ad magnam aut quidem earum est debitis dolores nulla eius.
+                    </p>
+                </div> 
+            </div>
+        </section>
+        <section id="servicos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Nossos serviços</h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-servicos">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#ebooks" class="fw-bold text-start nav-link text-colored active">Ebooks</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#oligoscan" class="fw-bold text-start nav-link text-colored">Oligoscan</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#hidrovitalis" class="fw-bold text-start nav-link text-colored">Hidrovitalis</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#exames" class="fw-bold text-start nav-link text-colored">Exames de Sensibilidade Alimentar</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#rife" class="fw-bold text-start nav-link text-colored">Rife</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#scanner" class="fw-bold text-start nav-link text-colored">Scanner corporal</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="ebooks">
+                                <div class="row">
+                                    <div class="col-md-5 ms-md-2">
+                                        <img class="d-block w-100 ms-md-1" src="./images/servicos/ebooks/ebook2.jpeg" alt="Receitas Natalinas">
+                                    </div>
+                                    <div class="col-md-5 mt-3">
+                                        <h3 class="section-title">Ebook de Receitas Natalinas:</h3>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis rerum minus quidem non, iusto eum illo quod quibusdam cum ratione in ipsa quo nihil velit dolores facere distinctio blanditiis veniam.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="oligoscan">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <img class="d-block w-100" src="./images/servicos/oligoscan/Oligoscan.jpeg" alt="Aparelho Oligoscan">
+                                    </div>
+                                    <div class="col-md-5 mt-3 mt-md-0 mt-sm-2">
+                                        <h3 class="section-title">Aparelho Oligoscan:</h3>
+                                        <p>
+                                            Esse aparelho avalia, de forma prática, indolor e não invasiva minerais, as vitaminas, metais pesados e estresse oxidativo auxiliando na elaboração de suplementações e terapias injetáveis  personalizadas de acordo com a individualidade bioquímica do paciente.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="hidrovitalis">
+                                <div class="row">
+                                    <div class="col-md-5 ms-md-2 mt-sm-2">
+                                        <img class="d-block w-100" src="./images/servicos/hidrovitalis/Detox Hidrovitalis.jpeg" alt="Aparelho de Detox Hidrovitalis">
+                                    </div>
+                                    <div class="col-md-5 mt-3 mt-md-0">
+                                        <h3 class="section-title">Aparelho Hidrovitalis:</h3>
+                                        <p>
+                                            Recurso terapêutico quântico não invasivo, indolor que emite frequências e hidroterapia através da propriedades terapêuticas da água possibilitando assim a desintoxicação, estimulação e normalização do organismo.
+                                        </p>
+                                        <p>
+                                            Possui um vasto banco de dados com programas de sessões para eliminação de parasitas, desintoxicação de pesticidas, agrotóxicos, metais tóxicos, e auxilia o tratamento de uma infinidade de patologias como alergias, insônia, ansiedade, TPM e estresse.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="exames">
+                                <div class="row">
+                                    <div class="col-md-5 ms-md-2 mt-sm-2">
+                                        <img class="d-block w-100" src="./images/servicos/exames/testes.jpeg" alt="Imagem sobre exame de sensibilidade alimentar">
+                                    </div>
+                                    <div class="col-md-5 mt-3 mt-md-0">
+                                        <h3 class="section-title">Exames de sensibilidade alimentar:</h3>
+                                        <p>
+                                            Tem finalidade de identificar os alimentos causadores de sensibilidades alimentares se torna por muitas vezes complexo pois o sintoma pode aparecer de 3 a 4 dias após seu consumo.
+                                        </p>
+                                        <p>
+                                            O teste de sensibilidade alimentar detecta a sensibilidade a diversos alimentos, encontrando os possíveis responsáveis por disfunções gastrointestinais, doenças inflamatórias da pele, enxaqueca, síndrome da fadiga crônica, e outros problemas de saúde.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="rife">
+                                <div class="row">
+                                    <div class="col-md-5 ms-md-2 mt-sm-2">
+                                        <img class="d-block w-100" src="./images/servicos/rife/rife.jpeg" alt="Máquina de Rife">
+                                    </div>
+                                    <div class="col-md-5 mt-3 mt-md-0">
+                                        <h3 class="section-title">Rife:</h3>
+                                        <p>
+                                            Rife é um equipamento específico que utiliza frequências, na qual é possível influenciar o corpo a fazer desintoxicação do organismo, seja de poluentes do meio ambiente, agrotóxicos, metais tóxicos, disruptores endócrinos, parasitas intracelulares, também emite frequência contrárias a diversas doenças, auxiliando no seu tratamento e controle.
+                                        </p>
+                                    </div>   
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="scanner">
+                                <div class="row">
+                                    <div class="col-md-5 ms-md-2 mt-sm-2">
+                                        <img class="d-block w-100" src="./images/servicos/scanner/scanner.webp" alt="Scanner Corporal">
+                                    </div>
+                                    <div class="col-md-5 mt-3 mt-md-0">
+                                        <h3 class="section-title">Scanner Corporal:</h3>
+                                        <p>
+                                            Conheça o scanner corporal 3D da Styku, a máquina toma as medidas de superfície de sua cintura, peito e braços e em seguida monta um modelo 3D que pode ser girado, cortado e ampliado.
+                                        </p>
+                                    </div>   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale conosco:</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Digite o seu nome:</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Digite o seu e-mail:</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Digite o seu número de celular:</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Digite a sua mensagem:</label>
+                                <textarea id="mensagem" class="form-control" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Contatos:
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço:
+                            </h3>
+                            <p>Rua da Saúde, n 10 - Bairro: Boa Forma - Rio de Janeiro - R.J.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
